@@ -11,16 +11,21 @@ Activate the environment
 `source ./chatBotEnv/bin/activate`
 
 Add your environment variables:
-`export OPENAI_API_KEY="your-openai-key"`
-`export AWS_DEFAULT_REGION="your-aws-region"`
-`export AWS_ACCESS_KEY_ID=your-aws-key`
-`export AWS_SECRET_ACCESS_KEY=your-secret-aws-key`
+
+```
+export OPENAI_API_KEY="your-openai-key"
+export AWS_DEFAULT_REGION="your-aws-region"
+export AWS_ACCESS_KEY_ID=your-aws-key
+export AWS_SECRET_ACCESS_KEY=your-secret-aws-key
+```
 
 Clone the repo and enter the repository folder
-`cd chatBot`
+
+```cd chatBot```
 
 Start the chat bot: 
-`python ./startChat.py`
+
+```python ./startChat.py```
 
 To exit: 
 Use CTRL+C or say "terminate" and it will exit
