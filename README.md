@@ -6,7 +6,7 @@ Create a new virtual environment:
 
 `python -m venv chatBotEnv`
 
-Activate the environment
+Activate the environment:
 
 `source ./chatBotEnv/bin/activate`
 
@@ -19,9 +19,13 @@ export AWS_ACCESS_KEY_ID=your-aws-key
 export AWS_SECRET_ACCESS_KEY=your-secret-aws-key
 ```
 
-Clone the repo and enter the repository folder
+Clone the repo and enter the repository folder:
 
 ```cd chatBot```
+
+Install the requirements:
+
+`pip install -r requirements.txt`
 
 Start the chat bot: 
 
