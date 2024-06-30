@@ -3,9 +3,11 @@ Mashup of the SDK for ChatGPT from OpenAI and Transcribe + Polly from AWS to cre
 
 ## How to use
 Create a new virtual environment: 
+
 `python -m venv chatBotEnv`
 
 Activate the environment
+
 `source ./chatBotEnv/bin/activate`
 
 Add your environment variables:
