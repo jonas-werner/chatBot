@@ -28,6 +28,7 @@ Start the chat bot:
 ```python ./startChat.py```
 
 To exit: 
+
 Use CTRL+C or say "terminate" and it will exit
 
 ## To do
